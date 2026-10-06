@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    double keys = 1;
+    int i;
+
+    for(i = 1; i <= 25; i++)
+        keys *= i;
+
+    printf("Possible keys = %.0f\n", keys);
+
+    return 0;
+}
